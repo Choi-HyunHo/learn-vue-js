@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+      
+    </div>
+    <script>
+        let div = document.querySelector('#app');
+        let str = 'hello world'
+        div.innerHTML = str;
+
+        str = 'hello world!!'; // 화면에 반영되지 않는다.
+        div.innerHTML = str; // 기존의 접근 방식 - 일반적인 개발 방식 (HTML + CSS + JS)
+    </script>
+</body>
+</html>
